@@ -12,6 +12,14 @@
 		F0E203A12BE1BEDC00957E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E203A02BE1BEDC00957E49 /* Assets.xcassets */; };
 		F0E203A42BE1BEDC00957E49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E203A32BE1BEDC00957E49 /* Preview Assets.xcassets */; };
 		F0E203AC2BE1BF4500957E49 /* Adhan in Frameworks */ = {isa = PBXBuildFile; productRef = F0E203AB2BE1BF4500957E49 /* Adhan */; };
+		F0E203B92BE285EE00957E49 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E203B82BE285EE00957E49 /* TabBar.swift */; };
+		F0E203BD2BE2864F00957E49 /* PrayerTimeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E203BC2BE2864F00957E49 /* PrayerTimeClass.swift */; };
+		F0E203C02BE28A7500957E49 /* PrayerTimeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E203BF2BE28A7500957E49 /* PrayerTimeHeader.swift */; };
+		F0E203C22BE28C7F00957E49 /* PrayerTimeTableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E203C12BE28C7F00957E49 /* PrayerTimeTableItem.swift */; };
+		F0E203C42BE28D6100957E49 /* AthanTimeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E203C32BE28D6100957E49 /* AthanTimeTable.swift */; };
+		F0E203C62BE28E0C00957E49 /* LocationNotFoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E203C52BE28E0C00957E49 /* LocationNotFoundView.swift */; };
+		F0E203CA2BE28F7300957E49 /* EzanVaktiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E203C92BE28F7300957E49 /* EzanVaktiView.swift */; };
+		F0E203CC2BE28FE800957E49 /* EzanVaktiHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E203CB2BE28FE800957E49 /* EzanVaktiHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,15 @@
 		F0E2039E2BE1BED900957E49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F0E203A02BE1BEDC00957E49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0E203A32BE1BEDC00957E49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0E203B82BE285EE00957E49 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		F0E203BC2BE2864F00957E49 /* PrayerTimeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeClass.swift; sourceTree = "<group>"; };
+		F0E203BF2BE28A7500957E49 /* PrayerTimeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeHeader.swift; sourceTree = "<group>"; };
+		F0E203C12BE28C7F00957E49 /* PrayerTimeTableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeTableItem.swift; sourceTree = "<group>"; };
+		F0E203C32BE28D6100957E49 /* AthanTimeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthanTimeTable.swift; sourceTree = "<group>"; };
+		F0E203C52BE28E0C00957E49 /* LocationNotFoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationNotFoundView.swift; sourceTree = "<group>"; };
+		F0E203C92BE28F7300957E49 /* EzanVaktiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzanVaktiView.swift; sourceTree = "<group>"; };
+		F0E203CB2BE28FE800957E49 /* EzanVaktiHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzanVaktiHome.swift; sourceTree = "<group>"; };
+		F0E203CD2BE2916D00957E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +70,13 @@
 		F0E2039B2BE1BED900957E49 /* EzanVakti */ = {
 			isa = PBXGroup;
 			children = (
+				F0E203CD2BE2916D00957E49 /* Info.plist */,
+				F0E203C72BE28F5F00957E49 /* Views */,
+				F0E203BB2BE2863E00957E49 /* Model */,
+				F0E203AD2BE2807F00957E49 /* EzanVaktiView */,
 				F0E2039C2BE1BED900957E49 /* EzanVaktiApp.swift */,
 				F0E2039E2BE1BED900957E49 /* ContentView.swift */,
+				F0E203B72BE285DE00957E49 /* Components */,
 				F0E203A02BE1BEDC00957E49 /* Assets.xcassets */,
 				F0E203A22BE1BEDC00957E49 /* Preview Content */,
 			);
@@ -67,6 +89,42 @@
 				F0E203A32BE1BEDC00957E49 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0E203AD2BE2807F00957E49 /* EzanVaktiView */ = {
+			isa = PBXGroup;
+			children = (
+				F0E203BF2BE28A7500957E49 /* PrayerTimeHeader.swift */,
+				F0E203C52BE28E0C00957E49 /* LocationNotFoundView.swift */,
+				F0E203C32BE28D6100957E49 /* AthanTimeTable.swift */,
+				F0E203C12BE28C7F00957E49 /* PrayerTimeTableItem.swift */,
+			);
+			path = EzanVaktiView;
+			sourceTree = "<group>";
+		};
+		F0E203B72BE285DE00957E49 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F0E203B82BE285EE00957E49 /* TabBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F0E203BB2BE2863E00957E49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0E203BC2BE2864F00957E49 /* PrayerTimeClass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0E203C72BE28F5F00957E49 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F0E203C92BE28F7300957E49 /* EzanVaktiView.swift */,
+				F0E203CB2BE28FE800957E49 /* EzanVaktiHome.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +203,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E203C42BE28D6100957E49 /* AthanTimeTable.swift in Sources */,
+				F0E203BD2BE2864F00957E49 /* PrayerTimeClass.swift in Sources */,
+				F0E203C22BE28C7F00957E49 /* PrayerTimeTableItem.swift in Sources */,
 				F0E2039F2BE1BED900957E49 /* ContentView.swift in Sources */,
 				F0E2039D2BE1BED900957E49 /* EzanVaktiApp.swift in Sources */,
+				F0E203C02BE28A7500957E49 /* PrayerTimeHeader.swift in Sources */,
+				F0E203CA2BE28F7300957E49 /* EzanVaktiView.swift in Sources */,
+				F0E203C62BE28E0C00957E49 /* LocationNotFoundView.swift in Sources */,
+				F0E203CC2BE28FE800957E49 /* EzanVaktiHome.swift in Sources */,
+				F0E203B92BE285EE00957E49 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +344,8 @@
 				DEVELOPMENT_TEAM = G2FHPN9ZR2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EzanVakti/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = asdadasdasda;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +375,8 @@
 				DEVELOPMENT_TEAM = G2FHPN9ZR2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EzanVakti/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = asdadasdasda;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

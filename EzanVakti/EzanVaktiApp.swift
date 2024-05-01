@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct EzanVaktiApp: App {
+struct AthanApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(.dark)
         }
     }
 }
