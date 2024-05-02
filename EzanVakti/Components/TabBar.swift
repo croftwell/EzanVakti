@@ -39,7 +39,7 @@ struct TabBar: View {
                Text("Tab 2")
                    .tabItem {
                        Image(systemName: "magnifyingglass")
-                       Text("not")
+                       Text("noömt")
                    }
                    .tag(4)
            }
