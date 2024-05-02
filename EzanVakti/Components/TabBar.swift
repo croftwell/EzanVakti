@@ -35,7 +35,15 @@ struct TabBar: View {
                        Text("Profil")
                    }
                    .tag(2)
+               // Tab 2
+               Text("Tab 2")
+                   .tabItem {
+                       Image(systemName: "magnifyingglass")
+                       Text("Dinle")
+                   }
+                   .tag(4)
            }
+           
            .accentColor(Color("color"))
     }
 }
